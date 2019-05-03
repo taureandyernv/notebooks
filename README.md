@@ -1,5 +1,25 @@
 # RAPIDS Notebooks and Utilities
 
+| Folder  |     Notebook Title     |                                                                    Description                                                                   | Author           | Maintaining Contributors |
+|---------|:----------------------:|:------------------------------------------------------------------------------------------------------------------------------------------------:|------------------|--------------------------|
+| cuML    | XGBoost Demo           | This notebook shows the acceleration one can gain by using GPUs with XGBoost in RAPIDS.                                                          |                  |                          |
+| cuML    | dbscan_demo            | This notebook showcases density-based spatial clustering of applications with noise (dbscan) algorithm comparison between cuML and scikit-learn. |                  |                          |
+| cuML    | knn_demo               | This notebook showcases k-nearest neighbors (knn) algorithm comparison between cuML and scikit-learn.                                            | Saloni Jain      | Saloni Jain              |
+| cuML    | Linear Regression Demo | This notebook includes code example linear regression using RAPIDS cuDF and cuML.                                                                |                  |                          |
+| cuML    | Ridge Regression Demo  | This notebook includes code examples of ridge regression using RAPIDS cuDF and cuML.                                                             |                  |                          |
+| cuML    | knn_demo               |                                                                                                                                                  | Saloni Jain      |                          |
+| cuML    | pca_demo               | This notebook showcases principal component analysis (PCA) algorithm comparison between cuML and scikit-learn.                                   |                  |                          |
+| cuML    | tsvd_demo              | This notebook showcases truncated singular value decomposition (tsvd) algorithm comparison between cuML and scikit-learn.                        |                  |                          |
+| cuML    | sgd_demo               |                                                                                                                                                  | Saloni Jain      | Saloni Jain              |
+| cuML    | umap_demo              |                                                                                                                                                  | Benjamin Zaitlen | Rapids Team              |
+| cuML    | umap_supervised_demo   |                                                                                                                                                  | Corey Nolet      | Corey Nolet              |
+| cuGraph | Louvain                | use cuGraph to identify the cluster in a test graph using the Louvain algorithm                                                                  | Bradley Rees     | Bradley Rees             |
+| cuGraph | Pagerank               | use both NetworkX and cuGraph to compute the PageRank of each vertex in our test dataset                                                         | Bradley Rees     | Bradley Rees             |
+| cuGraph | Vertex-Similarity      | use cuGraph to compute vertex similarity using both the Jaccard Similarity and the Overlap Coefficient.                                          | Bradley Rees     | Bradley Rees             |
+| cuGraph | Weighted-Jaccard       | use cuGraph to compute the Weighted Jaccard Similarity metric on our training dataset.                                                           | Bradley Rees     | Bradley Rees             |
+| E2E     | Mortgage E2E Workflow  | Dataset driven notebook that has a workflow that is derived from Fannie Mae’s Single-Family Loan Performance Data                                | Keith Kraus      | Matthew Jones            |
+| E2E     | Weather_demo           |                                                                                                                                                  | Randy Gelhaussen |                          |
+
 * `cuml`: contains four example notebooks showing the usage of different machine learning algorithms included in cuML: `knn`, `dbscan`, `pca` and `tsvd`. It also includes a small subset of the Mortgage Dataset used in the notebooks.
 * `mortgage`: contains the notebook which runs ETL + ML on the Mortgage Dataset derived from [Fannie Mae’s Single-Family Loan Performance Data](http://www.fanniemae.com/portal/funding-the-market/data/loan-performance-data.html) ... download the mortgage dataset for use with the notebook [here](https://rapidsai.github.io/demos/datasets/mortgage-data)
 * `utils`: contains a set of useful scripts for interacting with RAPIDS
